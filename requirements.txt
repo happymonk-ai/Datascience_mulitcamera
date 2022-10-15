@@ -1,0 +1,69 @@
+# Pipeline requirements
+# Usage: pip install -r requirements.txt
+
+# Base ----------------------------------------
+matplotlib>=3.2.2
+keras==2.8.0
+numpy ==1.21.6
+pandas
+opencv-python ==4.5.5.64
+Pillow==9.1.1
+PyYAML>=5.3.1
+requests>=2.23.0
+scipy==1.7.3  # Google Colab version
+tqdm>=4.41.0
+nats-py
+protobuf<=3.20.1  # https://github.com/ultralytics/yolov5/issues/8012
+nest-asyncio
+statsmodels
+cvxpy
+pickledb
+#detectron2 -f \https://dl.fbaipublicfiles.com/detectron2/wheels/cu102/torch1.8/index.html
+#cudatoolkit==10.2
+torch==1.8.1 
+torchvision==0.9.1
+# torchaudio==0.8.1 -f https://download.pytorch.org/whl/torch_stable.html
+pytorchvideo
+pytorchvideo-nightly
+iopath
+fvcore
+streamlit
+pyngrok
+cmake
+face-recognition
+nanoid
+cython 
+chardet
+rq
+#pyyaml==5.1
+
+
+# Logging -------------------------------------
+tensorboard>=2.4.1
+wandb
+
+# Plotting ------------------------------------
+pandas>=1.1.4
+seaborn>=0.11.0
+
+# Export --------------------------------------
+# coremltools>=4.1  # CoreML export
+onnx>=1.9.0  # ONNX export
+onnx-simplifier>=0.3.6  # ONNX simplifier
+scikit-learn==1.1.1  # CoreML quantization
+tensorflow==2.8.0  # TFLite export
+# tensorflowjs>=3.9.0  # TF.js export
+# openvino-dev  # OpenVINO export
+
+# Extras --------------------------------------
+ipython  # interactive notebook
+psutil  # system utilization
+thop  # FLOPs computation
+# albumentations>=1.0.3
+# pycocotools>=2.0  # COCO mAP
+# roboflow
+
+# Note  importing packsages
+
+# python -m pip install detectron2 -f \https://dl.fbaipublicfiles.com/detectron2/wheels/cu102/torch1.8/index.html
+#sudo apt-get install redis
