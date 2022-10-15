@@ -763,9 +763,7 @@ async def batch_save(device_id,time_stamp,geo_location):
                 "geo":str(geo_location),
                 "metaData": metaBatch}
     print(primary)
-    # t = Process(target= await json_publish(primary=primary))
-    # t.start()
-    # t.join()
+    Process(target= await json_publish(primary=primary)).start()
     dict_frame[device_id].clear()
     count_frame[device_id] = 0 
     print(dict_frame[device_id],"entred the loop 237")
