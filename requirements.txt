@@ -51,7 +51,7 @@ seaborn>=0.11.0
 onnx>=1.9.0  # ONNX export
 onnx-simplifier>=0.3.6  # ONNX simplifier
 scikit-learn==1.1.1  # CoreML quantization
-tensorflow==2.8.1  # TFLite export
+tensorflow==2.11.1  # TFLite export
 # tensorflowjs>=3.9.0  # TF.js export
 # openvino-dev  # OpenVINO export
 
